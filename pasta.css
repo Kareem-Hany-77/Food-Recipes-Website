@@ -1,0 +1,41 @@
+img {
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px hsla(0, 1%, 18%, 0.74);
+}
+
+a {
+    color: hsl(0, 59%, 41%);
+}
+
+a:visited {
+    color: hsl(180, 80%, 46%);
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --body-margin:8px;
+}
+
+footer {
+    display: block;
+    background-color: hsl(270, 5%, 45%);
+    clear:both;
+    padding: 15px;
+    margin-left: calc(-1 * var(--body-margin));
+    margin-bottom: calc(-1 * var(--body-margin));
+    margin-right: calc(-1 * var(--body-margin));
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+}
