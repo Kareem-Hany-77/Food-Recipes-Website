@@ -1,129 +1,190 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Food-recipes ✨</title>
-        <script src="https://kit.fontawesome.com/cbe2f1bbba.js" crossorigin="anonymous"></script>
-        <link rel="icon" type="image/jpg" href="images\CNGB5793.PNG">
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-    </head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Step by Step: recipes you can tick off as you cook</title>
+<meta name="description" content="36 home-cooking recipes with ingredient checklists and step-by-step methods. Tick things off as you cook and the page remembers where you stopped.">
+<link rel="canonical" href="https://kareem-hany-77.github.io/Food-Recipes-Website/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Step by Step">
+<meta property="og:title" content="Step by Step: recipes you can tick off as you cook">
+<meta property="og:description" content="36 home-cooking recipes with ingredient checklists and step-by-step methods. Tick things off as you cook and the page remembers where you stopped.">
+<meta property="og:image" content="https://kareem-hany-77.github.io/Food-Recipes-Website/img/tacos.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F3F4F1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Source+Serif+4:opsz,wght@8..60,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="Step by Step, home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2147D6"/><path d="M9 16.5l4.8 4.8L23 11.5" fill="none" stroke="#FFD94A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Step by Step</span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<nav class="nav" id="nav" aria-label="Main">
+<a href="recipes.html">Recipes</a>
+<a href="advices.html">Advice</a>
+<a href="vid.html">Videos</a>
+<a class="nav-search" href="recipes.html#search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg><span>Search</span></a>
+</nav>
+</div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="wrap hero-grid">
+<div>
+<h1>Cook it one step at a time.</h1>
+<p class="lede">36 recipes with ingredient checklists and clear methods. Tick things off as you cook, and the page remembers where you stopped.</p>
+<div class="hero-actions">
+<a class="btn" href="recipes.html">Browse recipes</a>
+<a class="btn btn-ghost" href="recipes.html" data-random>Surprise me</a>
+</div>
+</div>
+<div class="hero-visual">
+<img src="img/tacos.webp" alt="A plate of tacos with fresh toppings" fetchpriority="high">
+<div class="demo">
+<h2>Guacamole</h2>
+<p class="demo-sub">Try it. Tap an ingredient to tick it off.</p>
+<ul><li class="check"><input type="checkbox" id="d1"><label for="d1"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">2 large ripe avocados</span></label></li><li class="check"><input type="checkbox" id="d2"><label for="d2"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">2 tablespoons chopped cilantro</span></label></li><li class="check"><input type="checkbox" id="d3"><label for="d3"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">1 tablespoon fresh lime juice</span></label></li><li class="check"><input type="checkbox" id="d4"><label for="d4"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">1 clove garlic grated</span></label></li><li class="check"><input type="checkbox" id="d5"><label for="d5"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">1/2 teaspoon salt</span></label></li></ul>
+<p class="demo-count" data-demo-count></p>
+<p class="demo-sub" style="margin-top:6px"><a href="tacos.html">Open the full tacos recipe</a></p>
+</div>
+</div>
+</div>
+</section>
 
-    <body>
+<section class="section">
+<div class="wrap">
+<div class="section-head"><h2>Browse by course</h2></div>
+<div class="courses">
+<a class="course" href="main.html"><div><p class="count">12 recipes</p><h3>Main Dishes</h3></div><p>Dinner-table favourites, from koshari to smash burgers.</p><div class="thumbs" aria-hidden="true"><img src="img/koshari-sm.webp" alt="" loading="lazy"><img src="img/burger-sm.webp" alt="" loading="lazy"><img src="img/sushi-sm.webp" alt="" loading="lazy"></div></a><a class="course" href="snacks.html"><div><p class="count">8 recipes</p><h3>Snacks</h3></div><p>Chips, bars and bites for any time of day.</p><div class="thumbs" aria-hidden="true"><img src="img/fries-sm.webp" alt="" loading="lazy"><img src="img/samosa-sm.webp" alt="" loading="lazy"><img src="img/pop-sm.webp" alt="" loading="lazy"></div></a><a class="course" href="dessert.html"><div><p class="count">8 recipes</p><h3>Desserts</h3></div><p>Cakes, cheesecake and syrup-soaked sweets.</p><div class="thumbs" aria-hidden="true"><img src="img/kunafa-sm.webp" alt="" loading="lazy"><img src="img/basbosa-sm.webp" alt="" loading="lazy"><img src="img/chessecake-sm.webp" alt="" loading="lazy"></div></a><a class="course" href="drinks.html"><div><p class="count">8 recipes</p><h3>Drinks</h3></div><p>Juices, teas and coffee, hot or cold.</p><div class="thumbs" aria-hidden="true"><img src="img/lemon-sm.webp" alt="" loading="lazy"><img src="img/green-sm.webp" alt="" loading="lazy"><img src="img/mango-sm.webp" alt="" loading="lazy"></div></a>
+</div>
+</div>
+</section>
 
-        <header>
-             
-            <div class="cont">
+<section class="section">
+<div class="wrap">
+<div class="section-head"><h2>Start with these</h2><a class="btn btn-ghost btn-small" href="recipes.html">See all 36 recipes</a></div>
+<div class="grid feature">
+<article class="tile" data-cat="Main Dishes" data-search="koshari main dishes 1 cup (237 ml) neutral frying oil, such as canola 10 medium shallots (14 ounces; 397 g), thinly sliced kosher salt 2 tablespoons (30 ml) shallot-infused oil (recipe above) 2 medium cloves garlic, minced (about 1 tablespoon) 2 tablespoons (30 ml) distilled white vinegar 1 cup (240 ml) tomato passata 1 tablespoon (15 ml) tomato paste 1 teaspoon granulated sugar 1 teaspoon ground cumin 1 teaspoon ground coriander kosher salt and freshly ground black pepper, to taste 2 tablespoons (30 ml) onion-infused oil 6 medium cloves garlic (30 g), minced 1/2 cup (120 ml) distilled white vinegar 1/2 cup (120 ml) room temperature water, plus more as needed 1 tablespoon ground cumin 1 tablespoon (15 ml) lime juice kosher salt and freshly ground black pepper 1 tablespoon (15 ml) onion-infused oil (recipe above) 1 tablespoon red pepper flakes 3 medium cloves garlic (15 g), minced 2 tablespoons (30 ml) tomato paste 1/4 cup (60 ml) mild tomato sauce (recipe above) 1/4 teaspoon ground cumin kosher salt and freshly ground black pepper 1/2 cup (1200 ml) onion-infused oil (recipe above) 1/2 cup white basmati rice (about 3 ounces; 90 g), soaked in cold water for 30 minutes then thoroughly rinsed and drained 1/2 cup italian vermicelli pasta (about 2 1/4 ounces; 65 g) 1/2 cup black lentils, such as beluga (3 1/2 ounces; 100 g), soaked in hot water for 1 hour 1/2 cup elbow pasta (about 2 3/4 ounces; 75 g) 2 teaspoons ground cumin 2 teaspoons ground coriander kosher salt and freshly ground black pepper">
+<div class="pic"><img src="img/koshari-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Main Dishes</p>
+<h3><a href="koshari.html">Koshari</a></h3>
+<p class="tag">Egypt&#x27;s iconic bowl of rice, lentils and pasta with three bold sauces.</p>
+<p class="meta"><span>34 ingredients</span><span>7 steps</span></p>
+</article><article class="tile" data-cat="Main Dishes" data-search="smash burger main dishes 1 tablespoon black pepper 1 tablespoon kosher salt 3/4 teaspoon msg (such as ajinomoto) 1 cup mayonnaise 1 garlic clove, grated 1 teaspoon sherry vinegar 3/4 teaspoon smoked paprika 1/2 teaspoon yellow mustard 1/4 teaspoon kosher salt 1/4 teaspoon msg (such as ajinomoto) 1 soft-boiled large egg (optional) 2 tablespoons finely chopped cornichons 1 yellow onion, thinly sliced (about 2 1/2 cups) 2 teaspoons granulated sugar 2 teaspoons kosher salt 1/2 cup unsalted butter (4 ounces), cut into 1-inch cubes 2 pounds burger blend ground beef (such as ground chuck and brisket) cooking spray 8 slices american cheese 4 sesame seed hamburger buns, split and toasted 1/2 cup sliced half-sour pickles (such as ba-tampte)">
+<div class="pic"><img src="img/burger-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Main Dishes</p>
+<h3><a href="burger.html">Smash Burger</a></h3>
+<p class="tag">Crispy-edged smash burgers with special sauce and soubise onions.</p>
+<p class="meta"><span>21 ingredients</span><span>5 steps</span></p>
+</article><article class="tile" data-cat="Desserts" data-search="kunafa desserts 200 grams kunafa dough butter, at room temperature for applying melted butter for drizzling 1 cup cream cheese ½ teaspoon rose water 1 cup grated mozzarella cheese 1 cup sugar dried rose petals for garnish pistachio powder for garnish blanched and peeled pistachios for garnish">
+<div class="pic"><img src="img/kunafa-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Desserts</p>
+<h3><a href="kunafa.html">Kunafa</a></h3>
+<p class="tag">Crisp shredded-pastry kunafa soaked in sweet syrup.</p>
+<p class="meta"><span>10 ingredients</span><span>7 steps</span></p>
+</article><article class="tile" data-cat="Main Dishes" data-search="tacos main dishes 2 vine ripened tomatoes diced (about 1.5 cups) 1/2 small yellow onion diced (about .5 cups) 3 jalapenos seeds removed, diced (about .75 cups) 10 sprigs cilantro chopped (about .25 cups) 1 clove garlic grated 2 tablespoons fresh lime juice 1/4 teaspoon salt 2 large ripe avocados 2 tablespoons chopped cilantro 1 tablespoon fresh lime juice 1 clove garlic grated 1/2 teaspoon salt 1.5 pounds ground beef i usually use 85% lean 1 teaspoon salt 1 medium yellow onion diced 4 jalapenos seeds removed, diced 5 cloves garlic minced 1.5 tablespoons ground cumin 1.5 tablespoons mexican chili powder 1/2 teaspoon cracked black pepper 2 tablespoons red wine vinegar 1 beer i usually use pale ale or mexican lager 2.5 tablespoons chopped chipotle peppers in adobo 2 tablespoons honey 1.5 tablespoons smoked paprika 1 tablespoon dried oregano 1 teaspoon ground coriander 1 pinch cinnamon or clove 16 ounces cheddar cheese freshly grated 2 cups sour cream 4 cups shredded lettuce 18 store bought crunchy taco shells 18 store bought taco sized soft flour tortillas">
+<div class="pic"><img src="img/tacos-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Main Dishes</p>
+<h3><a href="tacos.html">Tacos</a></h3>
+<p class="tag">Crunchy and soft tacos with beef, pico de gallo and fresh guacamole.</p>
+<p class="meta"><span>33 ingredients</span><span>12 steps</span></p>
+</article><article class="tile" data-cat="Desserts" data-search="cheesecake desserts 1 ½ cups graham cracker crumbs ¼ cup finely ground walnuts 1 tablespoon cinnamon sugar ½ cup butter, melted 3 (8 ounce) packages cream cheese, softened ¾ cup white sugar 1 teaspoon vanilla extract 1 cup heavy whipping cream 3 large eggs, slightly beaten">
+<div class="pic"><img src="img/chessecake-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Desserts</p>
+<h3><a href="chessecake.html">Cheesecake</a></h3>
+<p class="tag">Classic baked cheesecake with a buttery crumb crust.</p>
+<p class="meta"><span>9 ingredients</span><span>5 steps</span></p>
+</article><article class="tile" data-cat="Main Dishes" data-search="sushi main dishes 2 1/2 cups (540g) koshihikari rice 3 3/4 cups (935ml) cold water 1/2 cup (125ml) rice vinegar 2 tbsp caster sugar 1/2 tsp salt 6 nori sheets 200g tassal fresh tassie salmon skin off, cut into 1cm-thick batons 1 avocado, halved, stoned, peeled, thinly sliced light soy sauce, to serve wasabi paste, to serve pickled ginger, to serve">
+<div class="pic"><img src="img/sushi-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Main Dishes</p>
+<h3><a href="sushi.html">Sushi</a></h3>
+<p class="tag">Homemade sushi rice and rolls, step by step.</p>
+<p class="meta"><span>11 ingredients</span><span>5 steps</span></p>
+</article>
+</div>
+</div>
+</section>
 
-            <div id="step">
-            Cooking<br>Step-by-Step
-            </div>
+<section class="section">
+<div class="wrap">
+<div class="section-head"><h2>How a recipe page works</h2></div>
+<ol class="steps-demo">
+<li><h3>Pick a recipe</h3><p>Search by name, or by an ingredient you already have in the kitchen.</p></li>
+<li><h3>Check off your ingredients</h3><p>Tick what you have gathered. The bar at the top shows how much is left.</p></li>
+<li><h3>Follow the steps</h3><p>Mark each step done and the next one lights up. Your progress is saved in this browser, and Cook mode makes the text bigger and keeps your screen on.</p></li>
+</ol>
+</div>
+</section>
 
-            <div id="mainhead">
-            Recipes for everyone
-            </div>
+<section class="section">
+<div class="wrap">
+<div class="section-head"><h2>Kitchen knowledge</h2></div>
+<div class="facts-grid">
+<article class="fact">
+<img src="img/fact-first.webp" alt="" loading="lazy">
+<div>
+<h3>Who was the first cook?</h3>
+<p>There isn&rsquo;t a single known individual who was the &ldquo;first cook&rdquo; in history. The concept of cooking emerged with early human ancestors like Homo erectus, who learned to control and use fire for food preparation as far back as 1.5 million years ago. The role of a professional cook or chef developed much later, with the earliest named figures like Mithaecus in the 5th century BCE, and later figures like Marie-Antoine Car&ecirc;me becoming known for professional culinary expertise.</p>
+</div>
+</article>
+<article class="fact">
+<img src="img/fact-top10.webp" alt="" loading="lazy">
+<div>
+<h3>The 10 most-used foods in cooking</h3>
+<ol class="top10"><li>Rice</li><li>Potatoes</li><li>Chicken</li><li>Eggs</li><li>Pasta</li><li>Tacos</li><li>Sushi</li><li>Curry</li><li>Burgers</li><li>Tomatoes</li></ol>
+</div>
+</article>
+<article class="fact">
+<img src="img/fact-history.webp" alt="" loading="lazy">
+<div>
+<h3>A short history of cooking</h3>
+<p>Humans have been cooking for over a million years, and the oldest recipes date back to 1700 BC, found on Mesopotamian clay tablets. Cooking can prevent foodborne illnesses but also poses dangers, with smoke from cooking fires causing many deaths annually. Cooking can also be a therapeutic activity, enhancing mindfulness, and the culinary arts have evolved significantly, with innovations from ancient cookware to modern electric stoves.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2147D6"/><path d="M9 16.5l4.8 4.8L23 11.5" fill="none" stroke="#FFD94A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Step by Step</span></a>
+<p>Home-cooking recipes with checklists you can tick off as you cook.</p>
+</div>
+<div>
+<h2>Explore</h2>
+<ul>
+<li><a href="recipes.html">All recipes</a></li>
+<li><a href="advices.html">Cooking advice</a></li>
+<li><a href="vid.html">Videos</a></li>
+</ul>
+</div>
+<div>
+<h2>Courses</h2>
+<ul>
+<li><a href="main.html">Main Dishes</a></li>
+<li><a href="snacks.html">Snacks</a></li>
+<li><a href="dessert.html">Desserts</a></li>
+<li><a href="drinks.html">Drinks</a></li>
+</ul>
+</div>
+</div>
+<div class="foot-base">
+<span>&copy; 2026 Kareem Hany. All rights reserved.</span>
+<a href="mailto:kareem.2006.net@gmail.com">kareem.2006.net@gmail.com</a>
+</div>
+</div>
+</footer>
+<script>window.SBS_SLUGS=["chicken", "spaghetti", "pizza", "fish", "koshari", "steak", "pasta", "shawarma", "burger", "rice", "sushi", "tacos", "chips", "bars", "fries", "cheez", "samosa", "pop", "apple", "poha", "dango", "cake", "choco", "basbosa", "chsquare", "mix", "kunafa", "chessecake", "water", "lemon", "tea", "mango", "green", "winter", "chocomilk", "capp"];</script>
+<script src="app.js" defer></script>
 
-            <div id="pos">
-            <b>Home</b>
-            </div>
 
-            <nav class="navb">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="advices.html">Advices</a></li>
-                    <li><a href="vid.html">Videos</a></li>
-                </ul>
-            </nav>
-
-            </div>
-
-        </header>
-        
-        <main>
-            <aside>
-
-                <h3>Samples :</h3>
-
-                <div class="simp">
-                <a href="spaghetti.html" title="recipe" target="_blank">
-                <img src="images-food\turkish-spaghetti-recipe-with-tomato-paste.jpg">
-                </a>
-                <div class="words">Spaghetti</div>
-                </div>
-
-                <div class="simp">
-                <a href="lemon.html" title="recipe" target="_blank">
-                <img src="images-food\Fresh-Drinks-for-Summer.jpeg">
-                </a>
-                <div class="words">Mint Lemonade</div>
-                </div>
-
-                <div class="simp">
-                <a href="bars.html" title="recipe" target="_blank">
-                <img src="images-food\healthy-snack-bars-dates-nuts-recipe-5-of-7.jpg">
-                </a>
-                <div class="words">Snack Bars</div>
-                </div>
-
-                <div class="simp">
-                <a href="dango.html" title="recipe" target="_blank">
-                <img src="images-food\mitarashi-dango.jpg">
-                </a>
-                <div class="words">Dango</div>
-                </div>
-
-                <div class="simp">
-                <a href="koshari.html" title="recipe" target="_blank">
-                <img src="images-food\20240524-SEA-KevinWhite-Koshari-7135-c500ac8ef6234d598fc7343799743e21.jpg">
-                </a>
-                <div class="words">Koshari</div>
-                </div>
-
-                <div class="simp">
-                <a href="basbosa.html" title="recipe" target="_blank">
-                <img src="images-food\20230223-BasbousaBelAshta-FredHardy-01-f5cf0481dcf34a33b94ee0f9a2d441f9.jpg">
-                </a>
-                <div class="words">Basbousa Bel Ashta</div>
-                </div>
-
-                <div class="simp">
-                <a href="mango.html" title="recipe" target="_blank">
-                <img src="images-food\50bc35dd2212868d66ebc7cff0e618c0.avif">
-                </a>
-                <div class="words">Creamy Mango</div>
-                </div>
-
-                <div class="simp">
-                <a href="fries.html" title="recipe" target="_blank">
-                <img src="images-food\french.jpg">
-                </a>
-                <div class="words">French Fries</div>
-                </div>
-
-                <br><hr><br>
-
-            </aside>
-
-            <h4>Facts about cooking...</h4>
-            <img id="img1" src="images\f6a336_4dbd68e9797b4a85935256ac98125f83~mv2.avif">
-            <p><b>First cook in history..?</b><br><br>There isn't a single known individual who was the "first cook" in history, but rather the concept of cooking emerged with early human ancestors like Homo erectus, who learned to control and use fire for food preparation as far back as 1.5 million years ago. The role of a professional "cook" or "chef" developed much later, with the earliest named figures like Mithaecus in the 5th century BCE, and later figures like Marie-Antoine Carême becoming known for professional culinary expertise.</p>
-            <img id="img2" src="images\african-american-head-cook-garnishing-600nw-2152369899.webp">
-            <p><b>The top 10 most-used foods in cooking...</b><br><br>1. Rice________________2. Potatoes <br><br>3. Chicken_____________4. Eggs<br><br>5. Pasta________________6. Tacos<br><br>7. Sushi________________8. Currie<br><br> 9.burger_______________10. Tomatoes</p>
-            <img id="img3" src="images\How_much_can_a_culinary_chef_make.jpg">
-            <p><b>History of cooking..?</b><br><br>Humans have been cooking for over a million years, and the oldest recipes date back to 1700 BC, found on Mesopotamian clay tablets. Cooking can prevent foodborne illnesses but also poses dangers, with smoke from cooking fires causing many deaths annually. Cooking can also be a therapeutic activity, enhancing mindfulness, and the culinary arts have evolved significantly, with innovations from ancient cookware to modern electric stoves.</p><br>
-
-            
-
-        </main>
-
-        <footer>
-            <hr>auther : Kareem Hany<br>
-            &copy: copyright reserved<br>
-            <small><a href="mailto:kareem.2006.net@gmail.com">kareem.2006.net@gmail.com</a></small>
-        </footer>
-        
-
-    </body>
-
+</body>
 </html>

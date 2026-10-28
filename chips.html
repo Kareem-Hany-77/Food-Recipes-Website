@@ -1,40 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="pasta.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chips | Step by Step</title>
+<meta name="description" content="Thin, crunchy homemade potato chips. 4 ingredients and 3 steps, with a checklist you can tick off as you cook.">
+<link rel="canonical" href="https://kareem-hany-77.github.io/Food-Recipes-Website/chips.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Step by Step">
+<meta property="og:title" content="Chips | Step by Step">
+<meta property="og:description" content="Thin, crunchy homemade potato chips. 4 ingredients and 3 steps, with a checklist you can tick off as you cook.">
+<meta property="og:image" content="https://kareem-hany-77.github.io/Food-Recipes-Website/img/chips.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F3F4F1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Source+Serif+4:opsz,wght@8..60,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Recipe", "name": "Chips", "image": ["https://kareem-hany-77.github.io/Food-Recipes-Website/img/chips.webp"], "description": "Thin, crunchy homemade potato chips.", "recipeCategory": "Snacks", "recipeIngredient": ["1 pound russet potatoes (about 2 large), sliced 1/8 of an inch thick on a mandoline slicer, rinsed under cold running water and stored in water", "2 tablespoons distilled white vinegar", "2 quarts canola or peanut oil", "Kosher salt"], "recipeInstructions": [{"@type": "HowToStep", "text": "Drain potatoes. In a large saucepan, combine vinegar and 2 quarts water. Bring to a boil over high heat. Add potatoes and cook for 3 minutes. Drain and spread on paper towel-lined rimmed baking sheet. Allow to dry for 5 minutes, moving potatoes around to get even drying."}, {"@type": "HowToStep", "text": "Meanwhile, heat oil in large wok or Dutch oven to 325°F (163°C). Add 1/3 of potato slices and cook, stirring and flipping constantly with a wire mesh spider or slotted spoon until potatoes release no more bubbles, 10-20 minutes. Transfer chips to a large bowl lined with paper towels, sprinkle with salt, and toss to coat (smaller chips may cook faster than large ones and should be removed from the oil as they finish)."}, {"@type": "HowToStep", "text": "Transfer seasoned chips to a serving bowl and repeat step 2 with remaining 2 batches of chips. Serve immediately or allow to cool completely before transferring to zipper-lock bag."}], "author": {"@type": "Person", "name": "Kareem Hany"}}</script>
 </head>
-
 <body>
-    <img src="images-food\20220203-potato-chips-vicky-wasik-14-2d032f65cc7848a3bd760bdf314450c0.jpg">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="Step by Step, home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2147D6"/><path d="M9 16.5l4.8 4.8L23 11.5" fill="none" stroke="#FFD94A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Step by Step</span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<nav class="nav" id="nav" aria-label="Main">
+<a href="recipes.html" aria-current="page">Recipes</a>
+<a href="advices.html">Advice</a>
+<a href="vid.html">Videos</a>
+<a class="nav-search" href="recipes.html#search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg><span>Search</span></a>
+</nav>
+</div>
+</header>
+<main id="main" data-recipe="chips">
+<div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="recipes.html">Recipes</a><span aria-hidden="true">/</span><a href="snacks.html">Snacks</a></nav>
+<div class="rhead">
+<div>
+<a class="chip" href="snacks.html">Snacks</a>
+<h1>Chips</h1>
+<p class="lede">Thin, crunchy homemade potato chips.</p>
+<ul class="facts"><li><strong>4</strong> ingredients</li><li><strong>3</strong> steps</li></ul>
+<div class="actions">
+<a class="btn" href="#ingredients">Start cooking</a>
+<button class="btn btn-ghost" type="button" data-cook aria-pressed="false">Cook mode</button>
+<button class="btn btn-ghost" type="button" data-print>Print</button>
+</div>
+</div>
+<figure><img src="img/chips.webp" alt="Chips" fetchpriority="high"></figure>
+</div>
+</div>
+
+<div class="progress" role="status" aria-live="polite">
+<div class="wrap">
+<div class="meter" data-meter="ing"><div class="lbl"><span>Ingredients</span><span data-count>0 of 4</span></div><div class="bar"><i></i></div></div>
+<div class="meter" data-meter="step"><div class="lbl"><span>Steps</span><span data-count>0 of 3</span></div><div class="bar"><i></i></div></div>
+<button type="button" data-reset>Reset</button>
+</div>
+</div>
+
+<div class="wrap rbody">
+<aside class="board" id="ingredients" aria-label="Ingredients and equipment">
+<h2>Ingredients</h2>
+<div class="group"><ul><li class="check"><input type="checkbox" id="i1" data-id="i1" data-kind="ing"><label for="i1"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">1 pound russet potatoes (about 2 large), sliced 1/8 of an inch thick on a mandoline slicer, rinsed under cold running water and stored in water</span></label></li><li class="check"><input type="checkbox" id="i2" data-id="i2" data-kind="ing"><label for="i2"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">2 tablespoons distilled white vinegar</span></label></li><li class="check"><input type="checkbox" id="i3" data-id="i3" data-kind="ing"><label for="i3"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">2 quarts canola or peanut oil</span></label></li><li class="check"><input type="checkbox" id="i4" data-id="i4" data-kind="ing"><label for="i4"><span class="box"><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="txt">Kosher salt</span></label></li></ul></div>
+
+</aside>
+<div class="method" id="method">
+<h2>Method</h2>
+<ol><li class="step"><input type="checkbox" id="s1" data-id="s1" data-kind="step"><label for="s1"><span class="no"><span>1</span><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="body">Drain potatoes. In a large saucepan, combine vinegar and 2 quarts water. Bring to a boil over high heat. Add potatoes and cook for 3 minutes. Drain and spread on paper towel-lined rimmed baking sheet. Allow to dry for 5 minutes, moving potatoes around to get even drying.</span></label></li><li class="step"><input type="checkbox" id="s2" data-id="s2" data-kind="step"><label for="s2"><span class="no"><span>2</span><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="body">Meanwhile, heat oil in large wok or Dutch oven to 325°F (163°C). Add 1/3 of potato slices and cook, stirring and flipping constantly with a wire mesh spider or slotted spoon until potatoes release no more bubbles, 10-20 minutes. Transfer chips to a large bowl lined with paper towels, sprinkle with salt, and toss to coat (smaller chips may cook faster than large ones and should be removed from the oil as they finish).</span></label></li><li class="step"><input type="checkbox" id="s3" data-id="s3" data-kind="step"><label for="s3"><span class="no"><span>3</span><svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.3 3.3L13 5"/></svg></span><span class="body">Transfer seasoned chips to a serving bowl and repeat step 2 with remaining 2 batches of chips. Serve immediately or allow to cool completely before transferring to zipper-lock bag.</span></label></li></ol>
+<div class="finish" hidden>
+<h2>All done. Enjoy your chips.</h2>
+<p>Every step is ticked off. Want to cook it again?</p>
+<button class="btn btn-ghost" type="button" data-reset>Reset the checklist</button>
+</div>
 
 
-    <h3>Ingredients : </h3>
-
-    <ul>
-        <li>1 pound russet potatoes (about 2 large), sliced 1/8 of an inch thick on a mandoline slicer, rinsed under cold running water and stored in water</li><br>
-        <li>2 tablespoons distilled white vinegar</li><br>
-        <li>2 quarts canola or peanut oil</li><br>
-        <li>Kosher salt</li><br><hr>
-    </ul>
-
-    <h3>Directions : </h3>
-
-    <ol>
-        <li>Drain potatoes. In a large saucepan, combine vinegar and 2 quarts<br><br> water. Bring to a boil over high heat. Add potatoes and cook for 3<br><br> minutes. Drain and spread on paper towel-lined rimmed baking <br><br>sheet. Allow to dry for 5 minutes, moving potatoes around to get<br><br> even drying.</li><br><br><br>
-        <li>Meanwhile, heat oil in large wok or Dutch oven to 325°F (163°C).<br><br> Add 1/3 of potato slices and cook, stirring and flipping constantly<br><br> with a wire mesh spider or slotted spoon until potatoes release no<br><br> more bubbles, 10-20 minutes. Transfer chips to a large bowl lined<br><br> with paper towels, sprinkle with salt, and toss to coat (smaller chips<br><br> may cook faster than large ones and should be removed from the oil <br><br>as they finish).</li><br><br><br>
-        <li>Transfer seasoned chips to a serving bowl and repeat step 2 with<br><br> remaining 2 batches of chips. Serve immediately or allow to cool <br><br>completely before transferring to zipper-lock bag.</li><br><br>
-    </ol>
-
-
-    <footer>
-            <hr>auther : Mafia<br>
-            &copy: copyright reserved<br>
-            <small><a href="kareem.2006.net@gmail.com">kareem.2006.net@gmail.com</a></small>
-        </footer>
-
+</div>
+</div>
+<section class="more wrap"><div class="section-head"><h2>More snacks</h2><a class="btn btn-ghost btn-small" href="snacks.html">See all snacks</a></div><div class="grid"><article class="tile" data-cat="Snacks" data-search="snack bars snacks 2 cups pitted dates 3/4 cup raw cashews or almonds 1/4 cup nut butter, (i used natural peanut butter) 1/2 cup unsweetened shredded coconut 2 tablespoons cocoa powder 1 pinch salt">
+<div class="pic"><img src="img/bars-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Snacks</p>
+<h3><a href="bars.html">Snack Bars</a></h3>
+<p class="tag">No-fuss snack bars made with dates and nuts.</p>
+<p class="meta"><span>6 ingredients</span><span>5 steps</span></p>
+</article><article class="tile" data-cat="Snacks" data-search="french fries snacks 2 pounds russet potatoes (900 g; about 4 large potatoes), peeled and cut into 1/4-inch by 1/4-inch fries (keep raw potato sticks submerged in a bowl of water after cutting) 2 tablespoons (30 ml) distilled white vinegar kosher salt 2 quarts (1.9 l) peanut oil">
+<div class="pic"><img src="img/fries-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Snacks</p>
+<h3><a href="fries.html">French Fries</a></h3>
+<p class="tag">Crisp golden French fries from scratch.</p>
+<p class="meta"><span>4 ingredients</span><span>3 steps</span></p>
+</article><article class="tile" data-cat="Snacks" data-search="cheez-its snacks 6 ounces shredded cheddar cheese 150 grams all purpose flour or 1:1 gf flour blend about 1 cup 1/3 cup nutritional yeast 2 tsp salt 2 tbsp turmeric optional, for color 1 tbsp olive oil 1/2 cup ice water">
+<div class="pic"><img src="img/cheez-sm.webp" alt="" loading="lazy" decoding="async"></div>
+<p class="cat">Snacks</p>
+<h3><a href="cheez.html">Cheez-Its</a></h3>
+<p class="tag">Homemade cheesy crackers, just like the box but better.</p>
+<p class="meta"><span>7 ingredients</span><span>10 steps</span></p>
+</article></div></section>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2147D6"/><path d="M9 16.5l4.8 4.8L23 11.5" fill="none" stroke="#FFD94A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Step by Step</span></a>
+<p>Home-cooking recipes with checklists you can tick off as you cook.</p>
+</div>
+<div>
+<h2>Explore</h2>
+<ul>
+<li><a href="recipes.html">All recipes</a></li>
+<li><a href="advices.html">Cooking advice</a></li>
+<li><a href="vid.html">Videos</a></li>
+</ul>
+</div>
+<div>
+<h2>Courses</h2>
+<ul>
+<li><a href="main.html">Main Dishes</a></li>
+<li><a href="snacks.html">Snacks</a></li>
+<li><a href="dessert.html">Desserts</a></li>
+<li><a href="drinks.html">Drinks</a></li>
+</ul>
+</div>
+</div>
+<div class="foot-base">
+<span>&copy; 2026 Kareem Hany. All rights reserved.</span>
+<a href="mailto:kareem.2006.net@gmail.com">kareem.2006.net@gmail.com</a>
+</div>
+</div>
+</footer>
+<script src="app.js" defer></script>
 </body>
-
-
 </html>

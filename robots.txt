@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kareem-hany-77.github.io/Food-Recipes-Website/sitemap.xml

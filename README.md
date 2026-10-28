@@ -1,46 +1,48 @@
-# 🍲 Food Recipes Website
+# Step by Step
 
-A simple food recipes website built with *HTML* and *CSS* only.  
-It includes multiple pages to showcase different recipes with images and a responsive design.
+A home-cooking recipe website built with plain HTML, CSS and a little JavaScript. No framework, no build step, no backend.
 
------------------------------------------------------------------------------------------------
+**Live site:** https://kareem-hany-77.github.io/Food-Recipes-Website/
 
-## 📂 Project Structure
-- 'index.html'   : Home page  
-- 'about.html'   : About page  
-- 'contact.html' : Contact page  
-- 'style.css'    : Main stylesheet  
-- 'images/'      : Folder containing all images used in the website  
+## Features
 
------------------------------------------------------------------------------------------------
+- 36 recipes across Main Dishes, Snacks, Desserts and Drinks
+- Every recipe has an **ingredient checklist** and a **step-by-step method** you can tick off
+- A sticky **progress bar** and a highlighted "up next" step
+- Progress is **saved in your browser**, so you can come back to where you stopped
+- **Cook mode**: bigger text, and the screen stays awake (on supported browsers)
+- **Search by recipe or ingredient**, plus course filters
+- Print-friendly recipe pages
+- Responsive layout for phones, tablets and desktops
+- Recipe structured data (schema.org) for search engines
 
-## 🚀 Features
-- Clean and simple design  
-- Responsive layout for all devices  
-- Includes 30+ food recipes  
-- Easy to customize and expand  
+## Project structure
 
------------------------------------------------------------------------------------------------
+```
+index.html            Home page
+recipes.html          All recipes, with search and filters
+main.html             Main dishes
+snacks.html           Snacks
+dessert.html          Desserts
+drinks.html           Drinks
+advices.html          Cooking advice
+vid.html              Videos
+<recipe>.html         One page per recipe (koshari.html, tacos.html, ...)
+style.css             All styles
+app.js                Checklists, progress, search, cook mode
+img/                  Optimized photos (WebP)
+favicon.svg           Site icon
+sitemap.xml, robots.txt
+```
 
-## 🖼 Live Preview
-Check out the website here:  
-👉 [Food Recipes Website](https://kareem-hany-77.github.io/Food-Recipes-Website/)
+## Run locally
 
------------------------------------------------------------------------------------------------
+1. Download or clone the repository.
+2. Open `index.html` in any browser.
 
-## 🛠 How to Run Locally
-1. Download or clone the repository.  
-2. Open index.html in any web browser.  
-3. Enjoy browsing. 
+(Fonts load from Google Fonts, so they need an internet connection.)
 
------------------------------------------------------------------------------------------------
+## Notes
 
-## 📌 Notes
-- This project is for learning purposes (HTML/CSS front-end only).  
-- No backend or database is included.  
-
------------------------------------------------------------------------------------------------
-
-✍ Developed by [Kareem Hany]
-
-=======================================================================
+- Front-end only, built as a learning project.
+- Developed by Kareem Hany.
